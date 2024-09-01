@@ -14,7 +14,7 @@ function CategoriaMostrar({categoria}) {
                     // resizeMode="contain"
                     width={150}
                     height={200}
-                    className="rounded-lg "
+                    className="rounded-lg my-1"
                 />
                 <Text
                     className="absolute py-2 text-sm font-bold text-center  text-white bottom-5 bg-[#2b2b2b] "
