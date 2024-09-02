@@ -6,7 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "scheme":"metacritic",
+    "scheme": "metacritic",
     "splash": {
       "image": "./assets/icon.png",
       "resizeMode": "contain",
@@ -19,13 +19,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.chaponanwill.metacriticapp"
     },
     "web": {
       "favicon": "./assets/icon.png"
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "d4bf5cdc-0ee3-45b1-8253-aa4b790f720e"
+      }
+    }
   }
 }
